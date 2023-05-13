@@ -1,0 +1,1 @@
+..\venv\Scripts\labelImg.exe ..\data\raw ..\data\predefined_classes.txt
