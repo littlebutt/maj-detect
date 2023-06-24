@@ -8,50 +8,47 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: ../maj-detect/data/train # dataset root dir
-train: images  # train images (relative to 'path') 128 images
-val: images  # val images (relative to 'path') 128 images
+path: ../maj-detect/data # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
 # Classes
 names:
-  0: 0m
-  1: 1m
-  2: 2m
-  3: 3m
-  4: 4m
-  5: 5m
-  6: 6m
-  7: 7m
-  8: 8m
-  9: 9m
-  10: 0p
-  11: 1p
-  12: 2p
-  13: 3p
-  14: 4p
-  15: 5p
-  16: 6p
-  17: 7p
-  18: 8p
-  19: 9p
-  20: 0s
-  21: 1s
-  22: 2s
-  23: 3s
-  24: 4s
-  25: 5s
-  26: 6s
-  27: 7s
-  28: 8s
-  29: 9s
-  30: 1z
-  31: 2z
-  32: 3z
-  33: 4z
-  34: 5z
-  35: 6z
-  36: 7z
+  0: 1m
+  1: 2m
+  2: 3m
+  3: 4m
+  4: 5m
+  5: 6m
+  6: 7m
+  7: 8m
+  8: 9m
+  9: 1p
+  10: 2p
+  11: 3p
+  12: 4p
+  13: 5p
+  14: 6p
+  15: 7p
+  16: 8p
+  17: 9p
+  18: 1s
+  19: 2s
+  20: 3s
+  21: 4s
+  22: 5s
+  23: 6s
+  24: 7s
+  25: 8s
+  26: 9s
+  27: 1z
+  28: 2z
+  29: 3z
+  30: 4z
+  31: 5z
+  32: 6z
+  33: 7z
 
 
 # Download script/URL (optional)
